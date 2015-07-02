@@ -2,7 +2,11 @@
 #include<string.h>
 #include<conio.h>
 #include<malloc.h>
-char path[100] = "c:\\users\\liuxi_001\\desktop\\";
+/*
+time:2015/7/2
+实现简单的文本编辑功能
+*/
+char path[100] = "c:\\users\\liuxi_001\\desktop\\";//路径自己定义
 FILE *fp;
 char fname[50];
 char a[200];
